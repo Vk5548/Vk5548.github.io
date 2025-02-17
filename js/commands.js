@@ -6,6 +6,7 @@ var resume = 'https://github.com/Vk5548/Vk5548.github.io/blob/main/resume/Vaideh
 var gentoo = 'https://medium.com/@kalravaidehi0306/gentoo-linux-the-final-frontier-of-linux-distros-and-possibly-your-sanity-b8da5e7d0e52';
 var chrome_extension = 'https://github.com/Vk5548/T-C-AI';
 var subgraph_matching = 'https://github.com/Vk5548/Adv_DB_Graph_Databases/tree/master/Assignment3-Subgraph-Matching';
+var momento_hash = 'https://github.com/Vk5548/distributed-rust';
 
 // This content is about the "WHOIS"
 whois = [
@@ -67,8 +68,9 @@ social = [
 // Projects
 projects = [
     "<br>",
-    '1. T&C AI Chrome Extension <a href="' + chrome_extension + '" target="_blank">View on GitHub' + "</a>",
-    '2. Subgraph Isomorphism  <a href ="' + subgraph_matching + '" target="_blank">View On GitHub' + "</a>",
+    '1. MomentoHash - A Distributed System in Rust <a href="' + momento_hash + '" target="_blank">View on GitHub' + "</a>",
+    '2. T&C AI Chrome Extension <a href="' + chrome_extension + '" target="_blank">View on GitHub' + "</a>",
+    '3. Subgraph Isomorphism  <a href ="' + subgraph_matching + '" target="_blank">View On GitHub' + "</a>",
     "<br>"
 ];
 
