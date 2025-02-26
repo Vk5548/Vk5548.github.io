@@ -271,3 +271,58 @@ a:focus {
   font-size: 14px;
   text-align: center;
 }
+
+:root {
+  --background-color: #121212;
+  --main-text-color: #C0C0C0;
+  --title-color: #FFD700;
+  /* Gold */
+  --header-color: #00FF7F;
+  /* Soft Green */
+  --highlight-color: #FF4500;
+  /* Orange */
+  --link-color: #00BFFF;
+  /* Bright Blue */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  font-family: "Ubuntu Mono", monospace;
+  padding: 20px;
+}
+
+.command-title {
+  color: var(--title-color);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.section-header {
+  color: var(--header-color);
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid var(--header-color);
+  padding-bottom: 5px;
+  display: block;
+  margin-top: 20px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+
+strong {
+  color: var(--highlight-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
